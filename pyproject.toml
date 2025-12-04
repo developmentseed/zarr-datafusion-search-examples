@@ -9,9 +9,8 @@ dependencies = [
     "boto3>=1.40.61",
     "dask>=2025.11.0",
     "earthaccess>=0.15.1",
-    #"icechunk>=1.1.11",
+    "icechunk>=1.1.13",
     "folium>=0.20.0",
-    "icechunk @ file:///Users/seanharkins/projects/icechunk/target/wheels/icechunk-1.1.12-cp313-cp313-macosx_11_0_arm64.whl",
     "matplotlib>=3.10.7",
     "morecantile>=6.2.0",
     "planetary-computer>=1.0.0",
@@ -25,7 +24,7 @@ dependencies = [
     "virtual-tiff>=0.2.0",
     "virtualizarr",
     "xarray>=2025.10.1",
-    "zarr-datafusion-search @ file:///Users/seanharkins/projects/zarr-datafusion-internal/python/target/wheels/zarr_datafusion_search-0.1.0-cp39-abi3-macosx_11_0_arm64.whl",
+    "zarr-datafusion-search @ git+https://github.com/developmentseed/zarr-datafusion-search.git#subdirectory=python",
 ]
 
 [tool.uv.sources]
